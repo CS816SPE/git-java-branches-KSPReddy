@@ -7,6 +7,7 @@ public class calc{
 		do{
 			System.out.print("1. ADD TWO NUMBERS\n");
 			System.out.print("2. Exit\n\n");
+			System.out.print("3. SUBTRACT TWO NUMBERS\n");
 			System.out.print("Enter Your Choice : ");
 			choice = scan.next().charAt(0);
 			switch(choice){
@@ -18,6 +19,12 @@ public class calc{
 							break;
 				case '2'  : System.exit(0);
 							break;
+				case '3' :  System.out.print("Enter Two Numbers : ");
+							a = scan.nextFloat();
+							b = scan.nextFloat();
+							res = a-b;
+							System.out.print("Result = "+res);
+							break;			
 				default   : System.out.print("INVALID CHOICE !!!");
 							break;
 			}
