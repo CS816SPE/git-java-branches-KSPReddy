@@ -10,6 +10,7 @@ public class calc{
 			System.out.print("3. MULTIPLY TWO NUMBERS\n");
 			System.out.println("4. SUBTRACT TWO NUMBERS\n");
 			System.out.print("Enter Your Choice : ");
+			System.out.print("Hello World : ");
 			choice = scan.next().charAt(0);
 			switch(choice){
 				case '1' :  System.out.print("Enter Two Numbers : ");
