@@ -5,6 +5,7 @@ public class calc{
 		char choice, ch;
 		Scanner scan = new Scanner(System.in);
 		do{
+			System.out.println("My Calculator Program");
 			System.out.print("1. ADD TWO NUMBERS\n");
 			System.out.print("2. Exit\n\n");
 			System.out.print("3. MULTIPLY TWO NUMBERS\n");
